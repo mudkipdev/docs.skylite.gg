@@ -1,4 +1,10 @@
 # Thunder
+
+Simulation anti-cheat for Minestom
+
+> [!WARNING]
+> Thunder is currently in early access preview and not accessible publicly.
+
 ::: code-group
 
 ```kts [Gradle (Kotlin)]
@@ -41,3 +47,7 @@ dependencies {
 ```
 
 :::
+
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j0MQd4totzA" title="Thunder video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
