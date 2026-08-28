@@ -1,15 +1,31 @@
 # Thunder
 
-Simulation anti-cheat for Minestom
+A simulation anti-cheat for Minestom
 
-> [!WARNING]
+## Source Code
+
+> [!NOTE]
 > Thunder is currently in early access preview and not accessible publicly.
+
+## Installation
 
 ::: code-group
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg/releases")
+    maven {
+        name = "skylite"
+        url = uri("https://maven.skylite.gg/private")
+
+        credentials {
+            username = providers.gradleProperty("skyliteUsername").orNull ?: System.getenv("SKYLITE_MAVEN_USERNAME")
+            password = providers.gradleProperty("skylitePassword").orNull ?: System.getenv("SKYLITE_MAVEN_PASSWORD")
+        }
+
+        content {
+            includeModule("gg.skylite", "thunder")
+        }
+    }
 }
 
 dependencies {
@@ -20,7 +36,17 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg/releases'
+        name = 'skylite'
+        url = uri('https://maven.skylite.gg/private')
+
+        credentials {
+            username = providers.gradleProperty('skyliteUsername').orNull ?: System.getenv('SKYLITE_MAVEN_USERNAME')
+            password = providers.gradleProperty('skylitePassword').orNull ?: System.getenv('SKYLITE_MAVEN_PASSWORD')
+        }
+
+        content {
+            includeModule('gg.skylite', 'thunder')
+        }
     }
 }
 
@@ -33,7 +59,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg/releases</url>
+        <url>https://maven.skylite.gg/private</url>
     </repository>
 </repositories>
 
@@ -47,6 +73,25 @@ dependencies {
 ```
 
 :::
+
+<details>
+<summary>How do I authenticate a private repository in Maven?</summary>
+
+Add the repository credentials to `~/.m2/settings.xml`:
+
+```xml
+<settings>
+    <servers>
+        <server>
+            <id>skylite</id>
+            <username>${env.SKYLITE_MAVEN_USERNAME}</username>
+            <password>${env.SKYLITE_MAVEN_PASSWORD}</password>
+        </server>
+    </servers>
+</settings>
+```
+
+</details>
 
 ## Video
 

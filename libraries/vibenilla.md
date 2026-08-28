@@ -4,6 +4,14 @@ An experiment to slowly implement vanilla features in Minestom
 
 ## pvp
 
+Combat for Minestom
+
+### Source Code
+
+https://github.com/vibenilla/pvp
+
+### Installation
+
 ::: code-group
 
 ```kts [Gradle (Kotlin)]
@@ -47,7 +55,15 @@ dependencies {
 
 :::
 
-## fluids
+## placement
+
+Block placement for Minestom
+
+### Source Code
+
+https://github.com/vibenilla/placement
+
+### Installation
 
 ::: code-group
 
@@ -57,7 +73,7 @@ repositories {
 }
 
 dependencies {
-    implementation("rocks.minestom:fluids:2026.08.28-26.2")
+    implementation("rocks.minestom:placement:2026.08.28-26.2")
 }
 ```
 
@@ -69,7 +85,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'rocks.minestom:fluids:2026.08.28-26.2'
+    implementation 'rocks.minestom:placement:2026.08.28-26.2'
 }
 ```
 
@@ -84,7 +100,7 @@ dependencies {
 <dependencies>
     <dependency>
         <groupId>rocks.minestom</groupId>
-        <artifactId>fluids</artifactId>
+        <artifactId>placement</artifactId>
         <version>2026.08.28-26.2</version>
     </dependency>
 </dependencies>
@@ -93,6 +109,14 @@ dependencies {
 :::
 
 ## worldgen
+
+World generation for Minestom
+
+### Source Code
+
+https://github.com/vibenilla/worldgen
+
+### Installation
 
 ::: code-group
 
@@ -139,6 +163,14 @@ dependencies {
 
 ## crafting
 
+Crafting for Minestom
+
+### Source Code
+
+https://github.com/vibenilla/crafting
+
+### Installation
+
 ::: code-group
 
 ```kts [Gradle (Kotlin)]
@@ -182,7 +214,15 @@ dependencies {
 
 :::
 
-## placement
+## fluids
+
+Water and lava physics for Minestom
+
+### Source Code
+
+https://github.com/vibenilla/fluids
+
+### Installation
 
 ::: code-group
 
@@ -192,7 +232,7 @@ repositories {
 }
 
 dependencies {
-    implementation("rocks.minestom:placement:2026.08.28-26.2")
+    implementation("rocks.minestom:fluids:2026.08.28-26.2")
 }
 ```
 
@@ -204,7 +244,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'rocks.minestom:placement:2026.08.28-26.2'
+    implementation 'rocks.minestom:fluids:2026.08.28-26.2'
 }
 ```
 
@@ -219,7 +259,7 @@ dependencies {
 <dependencies>
     <dependency>
         <groupId>rocks.minestom</groupId>
-        <artifactId>placement</artifactId>
+        <artifactId>fluids</artifactId>
         <version>2026.08.28-26.2</version>
     </dependency>
 </dependencies>
