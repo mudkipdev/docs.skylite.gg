@@ -1,4 +1,4 @@
-# PvP
+# pvp
 
 Combat for Minestom
 

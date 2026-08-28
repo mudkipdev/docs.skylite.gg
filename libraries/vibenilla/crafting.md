@@ -1,4 +1,4 @@
-# Crafting
+# crafting
 
 Crafting for Minestom
 

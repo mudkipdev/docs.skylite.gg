@@ -1,4 +1,4 @@
-# Worldgen
+# worldgen
 
 World generation for Minestom
 
