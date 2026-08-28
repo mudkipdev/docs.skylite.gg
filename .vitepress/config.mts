@@ -33,8 +33,7 @@ const config = withSidebar(
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterOrder: true,
-        useFolderLinkFromIndexFile: false,
-        capitalizeFirst: true,
+        useFolderLinkFromIndexFile: false
     },
 );
 
