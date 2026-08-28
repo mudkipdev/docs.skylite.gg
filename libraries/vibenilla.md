@@ -8,7 +8,7 @@ An experiment to slowly implement vanilla features in Minestom
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg")
+    maven("https://maven.skylite.gg/releases")
 }
 
 dependencies {
@@ -19,7 +19,7 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg'
+        url 'https://maven.skylite.gg/releases'
     }
 }
 
@@ -32,7 +32,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg</url>
+        <url>https://maven.skylite.gg/releases</url>
     </repository>
 </repositories>
 
@@ -53,7 +53,7 @@ dependencies {
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg")
+    maven("https://maven.skylite.gg/releases")
 }
 
 dependencies {
@@ -64,7 +64,7 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg'
+        url 'https://maven.skylite.gg/releases'
     }
 }
 
@@ -77,7 +77,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg</url>
+        <url>https://maven.skylite.gg/releases</url>
     </repository>
 </repositories>
 
@@ -98,7 +98,7 @@ dependencies {
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg")
+    maven("https://maven.skylite.gg/releases")
 }
 
 dependencies {
@@ -109,7 +109,7 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg'
+        url 'https://maven.skylite.gg/releases'
     }
 }
 
@@ -122,7 +122,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg</url>
+        <url>https://maven.skylite.gg/releases</url>
     </repository>
 </repositories>
 
@@ -143,7 +143,7 @@ dependencies {
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg")
+    maven("https://maven.skylite.gg/releases")
 }
 
 dependencies {
@@ -154,7 +154,7 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg'
+        url 'https://maven.skylite.gg/releases'
     }
 }
 
@@ -167,7 +167,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg</url>
+        <url>https://maven.skylite.gg/releases</url>
     </repository>
 </repositories>
 
@@ -188,7 +188,7 @@ dependencies {
 
 ```kts [Gradle (Kotlin)]
 repositories {
-    maven("https://maven.skylite.gg")
+    maven("https://maven.skylite.gg/releases")
 }
 
 dependencies {
@@ -199,7 +199,7 @@ dependencies {
 ```groovy [Gradle (Groovy)]
 repositories {
     maven {
-        url 'https://maven.skylite.gg'
+        url 'https://maven.skylite.gg/releases'
     }
 }
 
@@ -212,7 +212,7 @@ dependencies {
 <repositories>
     <repository>
         <id>skylite</id>
-        <url>https://maven.skylite.gg</url>
+        <url>https://maven.skylite.gg/releases</url>
     </repository>
 </repositories>
 
