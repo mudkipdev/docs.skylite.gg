@@ -50,23 +50,23 @@ config.themeConfig.sidebar = [
                 link: "/libraries/vibenilla",
                 items: [
                     {
-                        text: "PvP",
+                        text: "pvp",
                         link: "/libraries/vibenilla/pvp",
                     },
                     {
-                        text: "Placement",
+                        text: "placement",
                         link: "/libraries/vibenilla/placement",
                     },
                     {
-                        text: "Worldgen",
+                        text: "worldgen",
                         link: "/libraries/vibenilla/worldgen",
                     },
                     {
-                        text: "Crafting",
+                        text: "crafting",
                         link: "/libraries/vibenilla/crafting",
                     },
                     {
-                        text: "Fluids",
+                        text: "fluids",
                         link: "/libraries/vibenilla/fluids",
                     },
                 ],
