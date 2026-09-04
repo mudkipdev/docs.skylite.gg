@@ -69,6 +69,10 @@ config.themeConfig.sidebar = [
                         text: "fluids",
                         link: "/libraries/vibenilla/fluids",
                     },
+                    {
+                        text: "loot",
+                        link: "/libraries/vibenilla/loot"
+                    }
                 ],
             },
         ],

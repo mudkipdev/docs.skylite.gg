@@ -7,3 +7,4 @@ An experiment to slowly implement vanilla features in Minestom
 - [worldgen](/libraries/vibenilla/worldgen): World generation for Minestom
 - [crafting](/libraries/vibenilla/crafting): Crafting for Minestom
 - [fluids](/libraries/vibenilla/fluids): Water and lava physics for Minestom
+- [loot](/libraries/vibenilla/loot): Loot table parsing for Minestom
